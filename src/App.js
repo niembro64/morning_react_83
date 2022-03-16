@@ -3,14 +3,14 @@ import "./App.css";
 import Home from "./views/Home";
 import Second from "./views/Second";
 import Repeater from "./views/Repeater";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Link } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <div className="navBar">
-        links here
+        <Link to="/repeat/Nintendo/64">Link</Link>
         </div>
       <Switch>
         <Route exact path="/">
