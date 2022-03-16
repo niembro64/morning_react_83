@@ -1,6 +1,6 @@
 import React from "react";
 
-const c = (props) => {
+const Second = (props) => {
   return (
     <div>
       <h1>second page here</h1>
