@@ -9,7 +9,9 @@ import { BrowserRouter } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <h1>Eric Test</h1>
+      <div className="navBar">
+        links here
+        </div>
       <Switch>
         <Route exact path="/">
           <Home />
@@ -17,7 +19,7 @@ function App() {
         <Route exact path="/second">
           <Second />
         </Route>
-        <Route exact path="/repeat:word">
+        <Route exact path="/repeat/:word/:num">
           <Repeater />
         </Route>
       </Switch>

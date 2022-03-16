@@ -3,15 +3,15 @@ import { useParams } from "react-router-dom";
 
 const Repeater = (props) => {
   const { word } = useParams();
+  const { num } = useParams();
   return (
     <div>
-      {word}
-      <h1>repeater page here</h1>
-      <h1>repeater page here</h1>
-      <h1>repeater page here</h1>
-      <h1>repeater page here</h1>
-      <h1>repeater page here</h1>
-      <h1>repeater page here</h1>
+      <h1>{word}</h1>
+      <h1>{word}</h1>
+      <h1>{word}</h1>
+      <h1>{num}</h1>
+      <h1>{num}</h1>
+      <h1>{num}</h1>
     </div>
   );
 };
